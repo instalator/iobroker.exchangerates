@@ -8,8 +8,8 @@ let lang = 'ru';
 
 const source = [
     {name: 'CBR', parser: parseCBR, url: 'www.cbr-xml-daily.ru/daily_json.js'},
-    {name: 'ECB', parser: parseECB, url: 'www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml'},
-    {name: 'POL', parser: parsePOL, url: 'www.poloniex.com/public?command=returnTicker'}
+    {name: 'ECB', parser: parseECB, url: 'www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml'}//,
+    //{name: 'POL', parser: parsePOL, url: 'www.poloniex.com/public?command=returnTicker'}
 ];
 
 function startAdapter(options){
